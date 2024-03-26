@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -14,22 +13,21 @@
 
 <body>
     <header>
-      <h2 id="logo">Hannah Campbell</h2>
+      <h2 id="logo">HC</h2>
       <nav>
         <ul class="nav-bar">
-          <li class="'nav-item"><a href="#index">Home</a></li>
-          <li class="'nav-item"><a href="#about">About</a></li>
-          <li class="'nav-item"><a href="#projects">Projects</a></li>
-	      <li class="'nav-item"><a href="#contact">Contact</a></li>
+          <li><a href="#home" class="nav-item">Home</a></li>
+          <li><a href="#about" class="nav-item">About</a></li>
+          <li><a href="#projects" class="nav-item">Projects</a></li>
+	      <li><a href="#contact" class="nav-item">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
         <!-- Introduction -->
-        <section id="home">
-            <h1>Hey, I'm Hannah!</h1>
+        <section id="home" class="intro">
+            <h1>Hannah Campbell</h1>
             <h3>Web Developer</h3>
-            
         </section>
 
         <!-- About Me -->
@@ -73,10 +71,16 @@
                     <i class="fa-solid fa-envelope"></i>
                     </a>
                 </li>
-
             </ul>
+        <!--Scroll To Top Button-->
+            <div class="scroll-up">
+                <i class="fa-solid fa-circle-arrow-up" id="scrollUp"></i>
+            </div>
+            
         </section>
     </footer>
+
+    <script src="script.js"></script>
     
 </body>
 </html>
